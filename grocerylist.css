@@ -1,0 +1,43 @@
+body {
+  background-color: #e2e9e3;
+}
+
+img {
+  display: inline-block;
+  background-color: rgb(69, 187, 148);
+  border: 2px solid black;
+  width: 300px;
+  max-height: 100%;
+  margin: 1px;
+  padding: 10px;
+}
+
+h1 {
+  border-style: solid;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(35, 177, 170);
+  border-style: dashed;
+  width: 900px;
+  text-align: center;
+}
+
+.season-list {
+  list-style-type: square;
+}
+
+.veg-list {
+  list-style-type: lower-roman;
+}
+
+.protein-list {
+  list-style-type: circle;
+}
+
+/* done to align the images with the categories next to it  */
+.group {
+  display: flex;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="grocerylist.css" />
+
+    <!-- internal styling for food categories -->
+    <style>
+      .categories {
+        background-color: rgb(69, 187, 148);
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 200px;
+        margin: 10px;
+      }
+    </style>
+
+    <!-- Tab title -->
+    <title>My Grocery List</title>
+  </head>
+
+  <body>
+    <!-- inline CSS placed here to make the background of this into cornflower blue -->
+    <h1 style="background-color: cornflowerblue">
+      This Weekend's Seafood Boil Grocery List
+    </h1>
+
+    <!-- pantry items of dry & canned goods and seasonings -->
+    <h2>Pantry</h2>
+    <div class="group">
+      <section class="categories">
+        <h3>Dry & Canned Goods</h3>
+        <ol class="dry-list">
+          <li>Kidney beans</li>
+          <li>Long grain rice bag x2</li>
+          <li>Baby corn</li>
+          <li>Tomato paste</li>
+        </ol>
+      </section>
+
+      <section class="categories">
+        <h3>Seasonings</h3>
+        <ul class="season-list">
+          <li>Tony Chachere's</li>
+          <li>Smokd Paprika</li>
+          <li>Crawfish boil seasoning</li>
+          <li>Old bay</li>
+        </ul>
+      </section>
+      <img
+        src="https://images.seattletimes.com/wp-content/uploads/2023/03/Pantry.jpg?d=1020x681"
+        alt="pantry"
+      />
+    </div>
+
+    <!-- fridge items -->
+    <h2>Fridge</h2>
+    <div class="group">
+      <section class="categories">
+        <h3>Vegetables</h3>
+        <ol class="veg-list">
+          <li>Frozen okra</li>
+          <li>Mushroom x2</li>
+          <li>Onion bag</li>
+          <li>Lemons x4</li>
+        </ol>
+      </section>
+
+      <section class="categories">
+        <h3>Proteins</h3>
+        <ul class="protein-list">
+          <li>Andouille sausage x3</li>
+          <li>Whole chicken</li>
+          <li>Crawfish</li>
+          <li>Shrimp</li>
+        </ul>
+      </section>
+
+      <img
+        src="https://media.us.lg.com/transform/09f73580-5d42-435f-b0ab-7f8e98b4ece6/top-freezer_herobanner_900x600"
+        alt="fridge"
+      />
+    </div>
+  </body>
+
+  <!-- another space to isolate body -->
+</html>
